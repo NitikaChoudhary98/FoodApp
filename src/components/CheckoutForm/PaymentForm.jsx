@@ -38,6 +38,7 @@ const PaymentForm = ({ checkoutToken, nextStep, backStep, shippingData, onCaptur
             expiry_year: '24',
             cvc: '123',
             postal_zip_code: '94107',
+            payment_method_id: paymentMethod.id,
           },
         },
       };
